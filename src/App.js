@@ -1,27 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import SimplePopper from './popper/SimplePopper';
+import SimplePopper from './SimplePopper';
+import React from 'react';
+
 
 function App() {
-  return (
-    <div className="App">
-      <SimplePopper/>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+
+  const popoverContent = (
+    <div>
+      <p>This is a simple popover content.</p>
     </div>
   );
+
+  return (
+    <SimplePopper content={popoverContent} trigger="click" placement="bottom" className="custom-popover">
+      <button>Click me</button>
+    </SimplePopper>
+  );
+
 }
 
 export default App;
