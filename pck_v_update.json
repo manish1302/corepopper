@@ -1,0 +1,19 @@
+{
+    "name": "core-vm-popper",
+    "version": "1.0.2",
+    "main": "SimplePopper.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "react",
+      "popper"
+    ],
+    "author": "Venkatesh Manish",
+    "license": "MIT",
+    "dependencies": {
+      "react": "^16.13.1",
+      "@mui/material": "^5.0.0",
+      "prop-types": "^15.7.2"
+    }
+  }
