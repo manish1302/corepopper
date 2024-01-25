@@ -1,0 +1,12 @@
+1. OnScroll - * Hide
+              * Static
+              * scroll in to view
+2. Date picker scroll only component [dicuss]
+3. Pop-Up right side (with white cut) on downside show gap
+4. Dropdown Poistion Alignment {with lint and example } [TL,TR,BL,BR...]
+5. 
+
+
+--------------------------------
+1. Wrapping and useref refernce
+2. Customization
